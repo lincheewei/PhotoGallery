@@ -1,0 +1,183 @@
+
+<html>
+ <title>Photo Gallery</title>
+<!-- for moving heading for the webpage -->
+<marquee style="background-color:rgba(255,255,255,0.5)"><h1 style="color:red;font-size:250%;font-family:cursive;">Welcome to my food recipe gallery</h1></marquee>
+    
+<!-- background image -->
+<body style="background-image:url(background2.jpg);background-attachment:fixed;background-repeat:no-repeat;">
+    
+<!--styling and hover effects of the blocks-->
+<style>
+.gallery {
+    margin: 45px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    position: relative;
+}
+
+.photo {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.effect {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.gallery:hover .photo {
+  opacity: 0.8;
+}
+
+.gallery:hover .effect {
+  opacity: 1;
+}
+
+.download {
+  padding: 30px 60px;
+}
+    
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe {
+    padding: 15px;
+    text-align: center;
+    background-color:rgba(255,255,255,0.5)
+}
+</style>    
+ 
+<!--blocks for each images-->
+<div class="gallery">
+    <!--enlarge-->
+  <a target="_blank" href="1.jpeg">
+    <img src="1.jpeg"  width="500" height="300" class="photo">
+  </a>
+    <!--hover effect and download button-->
+    <div class="effect">
+        <div class="download"><a href="1.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+    </div>
+        <!--link to recipe website-->
+    <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/eggplant-parmigiana0-2012703"><b>Eggplant Parmigiana</b></a></div>
+</div>
+
+<div class="gallery">
+        <!--enlarge-->
+  <a target="_blank" href="2.jpeg">
+    <img src="2.jpeg"  width="300" height="200" class="photo">
+  </a>
+       <!--hover effect and download button-->
+     <div class="effect">
+        <div class="download"><a href="2.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+    </div>
+        <!--link to recipe website-->
+  <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/chuck-hughes/grilled-cheese-with-caramelized-onions-2122016"><b>Grilled Cheese with Caramelized Onions</b></a></div>
+</div>
+    
+<div class="gallery">
+       <!--enlarge-->
+  <a target="_blank" href="3.jpeg">
+    <img src="3.jpeg"  width="300" height="200" class="photo">
+  </a>
+       <!--hover effect and download button-->
+     <div class="effect">
+        <div class="download"><a href="3.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+    </div>
+        <!--link to recipe website-->
+   <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/tyler-florence/mac-n-cheese-with-bacon-and-cheese-1917317"><b>Mac 'N' Cheese with Bacon and Cheese</b></a></div>
+</div>
+    
+<div class="gallery">
+           <!--enlarge-->
+  <a target="_blank" href="4.jpeg" class="photo">
+    <img src="4.jpeg"  width="300" height="200">
+  </a>
+           <!--hover effect and download button-->
+    <div class="effect">
+        <div class="download"><a href="4.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+    </div>
+        <!--link to recipe website-->
+   <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/kelsey-nixon/french-onion-soup-1960524"><b>Kelsey's French Onion Soup</b></a></div>
+</div>
+    
+<div class="gallery">
+       <!--enlarge-->
+  <a target="_blank" href="5.jpeg" class="photo">
+    <img src="5.jpeg"  width="300" height="200">
+  </a>
+       <!--hover effect and download button-->
+ <div class="effect">
+ <div class="download"><a href="5.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+ </div>
+        <!--link to recipe website-->
+   <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/kelsey-nixon/scalloped-potatoes-au-gratin-2107103"><b>Scalloped Potatoes au Gratin</b></a></div>
+</div>
+    
+<div class="gallery">
+          <!--enlarge-->
+  <a target="_blank" href="6.jpeg" class="photo">
+    <img src="6.jpeg"  width="300" height="200">
+  </a>
+           <!--hover effect and download button-->
+     <div class="effect">
+        <div class="download"><a href="6.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+    </div>
+        <!--link to recipe website-->
+        <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/david-rocco/pasta-al-forno-oven-baked-pasta-1960559"><b>Pasta al Forno></b></a></div>
+</div>
+    
+<div class="gallery">
+        <!--enlarge-->
+  <a target="_blank" href="7.jpeg">
+    <img src="7.jpeg"  width="300" height="200" class="photo">
+  </a>
+           <!--hover effect and download button-->
+    <div class="effect">
+        <div class="download"><a href="7.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+    </div>
+        <!--link to recipe website-->
+ <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/broccoli-and-cauliflower-gratin-mac-n-cheese-1960084"><b>Cauliflower and Broccoli Gratin Mac and Cheese</b></a></div>
+</div>
+    
+<div class="gallery">
+           <!--enlarge-->
+  <a target="_blank" href="8.jpeg">
+    <img src="8.jpeg"  width="300" height="200" class="photo">
+  </a>
+           <!--hover effect and download button-->
+    <div class="effect">
+        <div class="download"><a href="8.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+    </div>
+        <!--link to recipe website-->
+        <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/debi-mazar-and-gabriele-corcos/melanzane-alla-parmigiana-eggplant-parmigiana-2109870"><b>Melanzane Alla Parmigiana</b></a></div>  
+</div>
+
+<div class="gallery">
+            <!--enlarge-->
+  <a target="_blank" href="10.jpeg" class="photo">
+    <img src="10.jpeg"  width="300" height="200">
+  </a>
+           <!--hover effect and download button-->
+     <div class="effect">
+        <div class="download"><a href="10.jpeg" download="image"><img border="0" src="icon.png" ></a></div>
+    </div>
+    <!--link to recipe website-->
+  <div class="recipe" ><a href="http://www.cookingchanneltv.com/recipes/crab-cake-mac-n-cheese-2200895"><b>Crab Cake Mac and Cheese</b></a></div>
+</div>
+</body>
+    
+    
+</html>
